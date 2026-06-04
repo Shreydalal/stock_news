@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: market_bot_db
+    environment:
+      POSTGRES_DB: market_intelligence
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: supersecurepassword123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d market_intelligence"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: market_bot_web
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://postgres:supersecurepassword123@db:5432/market_intelligence
+      - ENVIRONMENT=production
+      - LOG_LEVEL=INFO
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - GITHUB_REPOSITORY=${GITHUB_REPOSITORY}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_PORT=${SMTP_PORT}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASSWORD=${SMTP_PASSWORD}
+      - EMAIL_TO=${EMAIL_TO}
+    volumes:
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
