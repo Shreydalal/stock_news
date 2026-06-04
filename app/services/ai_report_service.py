@@ -142,7 +142,7 @@ Make the report detailed, professional, and full of insights. Incorporate specif
                 logger.info("Connecting to Groq API to generate report...")
                 client = Groq(api_key=settings.groq_key)
                 completion = client.chat.completions.create(
-                    model="llama3-70b-8192",
+                    model="llama-3.3-70b-versatile",
                     messages=[
                         {"role": "system", "content": "You are an expert market strategist generating highly insightful market intelligence reports."},
                         {"role": "user", "content": prompt}

@@ -63,6 +63,14 @@ class GitService:
             logger.info(f"Git: Adding {rel_path}")
             self.run_git_command(["git", "add", rel_path])
 
+            # Ensure local git identity is configured to avoid runner failure
+            try:
+                self.run_git_command(["git", "config", "user.email"])
+            except subprocess.CalledProcessError:
+                logger.info("Git author config not found. Setting local git user.name and user.email.")
+                self.run_git_command(["git", "config", "user.name", "github-actions[bot]"])
+                self.run_git_command(["git", "config", "user.email", "actions@github.com"])
+
             # Step 2: git commit
             commit_msg = f"Daily market report {report_date}"
             logger.info(f"Git: Committing with message: '{commit_msg}'")
