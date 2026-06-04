@@ -5,69 +5,69 @@ On 2026-06-04, global financial markets showed mixed momentum. Equity markets mo
 
 ## 2. NIFTY Analysis
 ### NIFTY 50 (^NSEI)
-- **Closing Price**: 100.00 (0.00% daily change)
-- **Daily Range**: Low: 95.00 | High: 105.00
-- **Moving Averages**: SMA(20): 100.00 | SMA(50): 100.00 | SMA(200): 100.00
-- **Momentum & Volatility**: RSI(14): N/A | MACD: 0.0000 | Bollinger Upper: 100.00 | Bollinger Lower: 100.00
-- **Key Levels**: Support: 95.00 | Resistance: 105.00
+- **Closing Price**: 23,397.70 (-0.03% daily change)
+- **Daily Range**: Low: 23,247.30 | High: 23,462.30
+- **Moving Averages**: SMA(20): 23,690.73 | SMA(50): 23,677.65 | SMA(200): 24,959.77
+- **Momentum & Volatility**: RSI(14): 41.2 | MACD: -118.3594 | Bollinger Upper: 24,229.83 | Bollinger Lower: 23,151.63
+- **Key Levels**: Support: 23,151.50 | Resistance: 24,515.95
 
 **Analysis**:
-The asset is currently trading in a **bullish** structure as the closing price remains above/below key averages. The daily change indicates that buyers/sellers have gained control. RSI at N/A indicates momentum is sustainable without immediate overbought or oversold extremes. Key resistance sits at 105.00, representing a local ceiling. A breakout above this level would confirm additional upside target, while immediate defense is anchored at support 95.00.
+The asset is currently trading in a **bearish** structure as the closing price remains above/below key averages. The daily change indicates that buyers/sellers have lost control. RSI at 41.2 indicates momentum is sustainable without immediate overbought or oversold extremes. Key resistance sits at 24,515.95, representing a local ceiling. A breakout above this level would confirm additional upside target, while immediate defense is anchored at support 23,151.50.
 
 ## 3. BANKNIFTY Analysis
 ### BANKNIFTY (^NSEBANK)
-- **Closing Price**: 100.00 (0.00% daily change)
-- **Daily Range**: Low: 95.00 | High: 105.00
-- **Moving Averages**: SMA(20): 100.00 | SMA(50): 100.00 | SMA(200): 100.00
-- **Momentum & Volatility**: RSI(14): N/A | MACD: 0.0000 | Bollinger Upper: 100.00 | Bollinger Lower: 100.00
-- **Key Levels**: Support: 95.00 | Resistance: 105.00
+- **Closing Price**: 54,252.20 (0.12% daily change)
+- **Daily Range**: Low: 53,829.40 | High: 54,396.40
+- **Moving Averages**: SMA(20): 54,196.35 | SMA(50): 54,424.76 | SMA(200): 56,977.49
+- **Momentum & Volatility**: RSI(14): 48.1 | MACD: -244.3749 | Bollinger Upper: 55,715.33 | Bollinger Lower: 52,677.38
+- **Key Levels**: Support: 52,783.45 | Resistance: 57,438.20
 
 **Analysis**:
-The asset is currently trading in a **bullish** structure as the closing price remains above/below key averages. The daily change indicates that buyers/sellers have gained control. RSI at N/A indicates momentum is sustainable without immediate overbought or oversold extremes. Key resistance sits at 105.00, representing a local ceiling. A breakout above this level would confirm additional upside target, while immediate defense is anchored at support 95.00.
+The asset is currently trading in a **bearish** structure as the closing price remains above/below key averages. The daily change indicates that buyers/sellers have gained control. RSI at 48.1 indicates momentum is sustainable without immediate overbought or oversold extremes. Key resistance sits at 57,438.20, representing a local ceiling. A breakout above this level would confirm additional upside target, while immediate defense is anchored at support 52,783.45.
 
 ## 4. Gold Analysis
 ### Gold Futures (GC=F)
-- **Closing Price**: 100.00 (0.00% daily change)
-- **Daily Range**: Low: 95.00 | High: 105.00
-- **Moving Averages**: SMA(20): 100.00 | SMA(50): 100.00 | SMA(200): 100.00
-- **Momentum & Volatility**: RSI(14): N/A | MACD: 0.0000 | Bollinger Upper: 100.00 | Bollinger Lower: 100.00
-- **Key Levels**: Support: 95.00 | Resistance: 105.00
+- **Closing Price**: 4,494.60 (1.31% daily change)
+- **Daily Range**: Low: 4,450.10 | High: 4,511.20
+- **Moving Averages**: SMA(20): 4,565.11 | SMA(50): 4,628.69 | SMA(200): 4,393.52
+- **Momentum & Volatility**: RSI(14): 43.9 | MACD: -53.9424 | Bollinger Upper: 4,756.49 | Bollinger Lower: 4,373.74
+- **Key Levels**: Support: 4,363.50 | Resistance: 4,765.20
 
 **Analysis**:
-The asset is currently trading in a **bullish** structure as the closing price remains above/below key averages. The daily change indicates that buyers/sellers have gained control. RSI at N/A indicates momentum is sustainable without immediate overbought or oversold extremes. Key resistance sits at 105.00, representing a local ceiling. A breakout above this level would confirm additional upside target, while immediate defense is anchored at support 95.00.
+The asset is currently trading in a **bearish** structure as the closing price remains above/below key averages. The daily change indicates that buyers/sellers have gained control. RSI at 43.9 indicates momentum is sustainable without immediate overbought or oversold extremes. Key resistance sits at 4,765.20, representing a local ceiling. A breakout above this level would confirm additional upside target, while immediate defense is anchored at support 4,363.50.
 
 ## 5. Silver Analysis
 ### Silver Futures (SI=F)
-- **Closing Price**: 100.00 (0.00% daily change)
-- **Daily Range**: Low: 95.00 | High: 105.00
-- **Moving Averages**: SMA(20): 100.00 | SMA(50): 100.00 | SMA(200): 100.00
-- **Momentum & Volatility**: RSI(14): N/A | MACD: 0.0000 | Bollinger Upper: 100.00 | Bollinger Lower: 100.00
-- **Key Levels**: Support: 95.00 | Resistance: 105.00
+- **Closing Price**: 73.39 (-0.11% daily change)
+- **Daily Range**: Low: 72.57 | High: 74.17
+- **Moving Averages**: SMA(20): 78.05 | SMA(50): 76.19 | SMA(200): 66.34
+- **Momentum & Volatility**: RSI(14): 42.1 | MACD: -0.9588 | Bollinger Upper: 87.10 | Bollinger Lower: 69.01
+- **Key Levels**: Support: 70.89 | Resistance: 88.89
 
 **Analysis**:
-The asset is currently trading in a **bullish** structure as the closing price remains above/below key averages. The daily change indicates that buyers/sellers have gained control. RSI at N/A indicates momentum is sustainable without immediate overbought or oversold extremes. Key resistance sits at 105.00, representing a local ceiling. A breakout above this level would confirm additional upside target, while immediate defense is anchored at support 95.00.
+The asset is currently trading in a **bearish** structure as the closing price remains above/below key averages. The daily change indicates that buyers/sellers have lost control. RSI at 42.1 indicates momentum is sustainable without immediate overbought or oversold extremes. Key resistance sits at 88.89, representing a local ceiling. A breakout above this level would confirm additional upside target, while immediate defense is anchored at support 70.89.
 
 ## 6. Bitcoin Analysis
 ### Bitcoin (BTC-USD)
-- **Closing Price**: 100.00 (0.00% daily change)
-- **Daily Range**: Low: 95.00 | High: 105.00
-- **Moving Averages**: SMA(20): 100.00 | SMA(50): 100.00 | SMA(200): 100.00
-- **Momentum & Volatility**: RSI(14): N/A | MACD: 0.0000 | Bollinger Upper: 100.00 | Bollinger Lower: 100.00
-- **Key Levels**: Support: 95.00 | Resistance: 105.00
+- **Closing Price**: 63,807.26 (-0.32% daily change)
+- **Daily Range**: Low: 61,351.63 | High: 64,659.06
+- **Moving Averages**: SMA(20): 74,047.23 | SMA(50): 76,663.66 | SMA(200): 78,932.71
+- **Momentum & Volatility**: RSI(14): 18.3 | MACD: -2953.4931 | Bollinger Upper: 82,835.86 | Bollinger Lower: 65,258.59
+- **Key Levels**: Support: 61,351.63 | Resistance: 82,792.21
 
 **Analysis**:
-The asset is currently trading in a **bullish** structure as the closing price remains above/below key averages. The daily change indicates that buyers/sellers have gained control. RSI at N/A indicates momentum is sustainable without immediate overbought or oversold extremes. Key resistance sits at 105.00, representing a local ceiling. A breakout above this level would confirm additional upside target, while immediate defense is anchored at support 95.00.
+The asset is currently trading in a **bearish** structure as the closing price remains above/below key averages. The daily change indicates that buyers/sellers have lost control. RSI at 18.3 indicates momentum is sustainable without immediate overbought or oversold extremes. Key resistance sits at 82,792.21, representing a local ceiling. A breakout above this level would confirm additional upside target, while immediate defense is anchored at support 61,351.63.
 
 ## 7. Ethereum Analysis
 ### Ethereum (ETH-USD)
-- **Closing Price**: 100.00 (0.00% daily change)
-- **Daily Range**: Low: 95.00 | High: 105.00
-- **Moving Averages**: SMA(20): 100.00 | SMA(50): 100.00 | SMA(200): 100.00
-- **Momentum & Volatility**: RSI(14): N/A | MACD: 0.0000 | Bollinger Upper: 100.00 | Bollinger Lower: 100.00
-- **Key Levels**: Support: 95.00 | Resistance: 105.00
+- **Closing Price**: 1,780.21 (-1.74% daily change)
+- **Daily Range**: Low: 1,717.80 | High: 1,814.46
+- **Moving Averages**: SMA(20): 2,039.17 | SMA(50): 2,205.75 | SMA(200): 2,471.70
+- **Momentum & Volatility**: RSI(14): 18.6 | MACD: -99.4492 | Bollinger Upper: 2,259.06 | Bollinger Lower: 1,819.29
+- **Key Levels**: Support: 1,717.80 | Resistance: 2,423.04
 
 **Analysis**:
-The asset is currently trading in a **bullish** structure as the closing price remains above/below key averages. The daily change indicates that buyers/sellers have gained control. RSI at N/A indicates momentum is sustainable without immediate overbought or oversold extremes. Key resistance sits at 105.00, representing a local ceiling. A breakout above this level would confirm additional upside target, while immediate defense is anchored at support 95.00.
+The asset is currently trading in a **bearish** structure as the closing price remains above/below key averages. The daily change indicates that buyers/sellers have lost control. RSI at 18.6 indicates momentum is sustainable without immediate overbought or oversold extremes. Key resistance sits at 2,423.04, representing a local ceiling. A breakout above this level would confirm additional upside target, while immediate defense is anchored at support 1,717.80.
 
 ## 8. Risk Factors
 - **Interest Rate Uncertainty**: Central bank commentaries continue to inject volatility into global bond yields, impacting growth assets like tech and cryptocurrencies.
