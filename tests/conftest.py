@@ -5,8 +5,15 @@ from pathlib import Path
 # Add project root to path so we can import app
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+import tempfile
+from pathlib import Path
+
+# Create a temporary database file path in the system temp directory to avoid workspace permission locks
+temp_db_path = Path(tempfile.gettempdir()) / "market_intelligence_test.db"
+db_url = f"sqlite:///{temp_db_path.as_posix()}"
+
 # Force SQLite file-based for testing configuration (shared connections support)
-os.environ["DATABASE_URL"] = "sqlite:///./test.db"
+os.environ["DATABASE_URL"] = db_url
 os.environ["LOG_LEVEL"] = "WARNING"  # Quieter tests
 
 import pytest
@@ -20,7 +27,7 @@ from app.models import Asset, MarketData, Indicator, Report
 from app.repositories.asset_repository import AssetRepository
 
 # Setup test DB engine
-engine = create_engine("sqlite:///./test.db", connect_args={"check_same_thread": False})
+engine = create_engine(db_url, connect_args={"check_same_thread": False})
 TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 @pytest.fixture(scope="function")
@@ -39,10 +46,9 @@ def db_session():
         db.close()
         Base.metadata.drop_all(bind=engine)
         # Clean up database file
-        db_file = Path("./test.db")
-        if db_file.exists():
+        if temp_db_path.exists():
             try:
-                db_file.unlink()
+                temp_db_path.unlink()
             except Exception:
                 pass
 
