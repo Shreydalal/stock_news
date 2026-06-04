@@ -7,7 +7,7 @@ from pytz import timezone
 from sqlalchemy.orm import Session
 
 from app.core.config import settings
-from app.core.database import SessionLocal
+from app.core.database import SessionLocal, Base, engine
 from app.services.market_data_service import MarketDataService
 from app.services.indicator_service import IndicatorService
 from app.services.ai_report_service import AIReportService
@@ -24,6 +24,8 @@ def run_daily_pipeline() -> bool:
     """Executes the daily market intelligence workflow."""
     today = date.today()
     logger.info(f"Starting daily pipeline for {today}...")
+    # Ensure database schema is created
+    Base.metadata.create_all(bind=engine)
     db: Session = SessionLocal()
     try:
         # Step 1: Fetch and store latest market data
@@ -89,6 +91,8 @@ def run_weekly_pipeline() -> bool:
     """Executes the weekly analysis workflow on Sunday evenings."""
     today = date.today()
     logger.info(f"Starting weekly pipeline for {today}...")
+    # Ensure database schema is created
+    Base.metadata.create_all(bind=engine)
     db: Session = SessionLocal()
     try:
         # For weekly, we generate a report summing up past week's indicators
@@ -149,6 +153,8 @@ def run_monthly_pipeline() -> bool:
     """Executes the monthly summary workflow on the last day of the month."""
     today = date.today()
     logger.info(f"Starting monthly pipeline for {today}...")
+    # Ensure database schema is created
+    Base.metadata.create_all(bind=engine)
     db: Session = SessionLocal()
     try:
         # Verify if today is actually the last day of the month

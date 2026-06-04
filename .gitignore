@@ -51,7 +51,6 @@ logs/
 
 # Databases & local configs
 test.db
-market_intelligence.db
 .idea/
 .vscode/
 *.swp
